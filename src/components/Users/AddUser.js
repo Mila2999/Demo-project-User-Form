@@ -15,10 +15,6 @@ const AddUser = (props) => {
       return;
     }
     console.log(enteredUserName, enteredAge);
-    // const userData = {
-    //   username: enteredUserName,
-    //   age: enteredAge,
-    // };
 
     setenteredUserName(''); //reset
     setenteredAge('');
